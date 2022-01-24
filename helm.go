@@ -1,4 +1,6 @@
-package cninit
+// for now commenting this out due to dependency errors
+
+/*package cninit
 
 import (
 	"fmt"
@@ -27,4 +29,4 @@ func CreateHelmClient(namespace string) (helmclient.Client, error) {
 		return helmClient, fmt.Errorf("while creating helmClient: %w", err)
 	}
 	return helmClient, nil
-}
+}*/
